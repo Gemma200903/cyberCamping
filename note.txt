@@ -40,6 +40,13 @@ Các thuộc tính:
     - font-family
 
 
+4. Background css
+Background-color: thiết lập màu nền
+Background-image: thiết lập hình nền
+Background-repeat: thiết lập xem hình nền có lặp lại hay không
+Background-position: thiết lập vị trí hình nền
+
+
 
 
 

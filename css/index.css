@@ -36,3 +36,15 @@ html, body{
 .header #active{
     color: red;
 }
+
+/* end header */
+
+/* start carousel */
+.carousel{
+    background-image: url("../img/BG.png");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* end carousel */
