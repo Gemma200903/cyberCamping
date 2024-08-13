@@ -1,11 +1,20 @@
 /* global */
+*{
+    box-sizing: border-box;
+
+}
+
 html, body{
     font-family: 'Times New Roman', Times, serif;
+    background-color: #FAF4F2;
+}
+.clear{
+    clear: both;
 }
 
 /* start header */
 .header {
-    background-color: rgba(241, 214, 221, 0.753);
+    background-color: #F8E1DB;
     padding: 1px 0;
 }
 .header ul{
@@ -44,7 +53,64 @@ html, body{
     background-image: url("../img/BG.png");
     height: 550px;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: cover; /*giãn hình ra 2 bên*/
+    background-position: center; 
 }
 /* end carousel */
+
+/* start activities */
+.activities{
+    background-color: #FAF4F2;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    color: gray;
+}
+.activities__item{
+    float: left;
+    width: 25%;
+    
+}
+.activities__item__detail{
+    border: none;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 25px;
+    background-color: white;
+    text-align: center;
+    
+
+
+}
+.activities__item__detail img{
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+}
+.activities__item__detail button{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #B0AEAD;
+}
+.viewAll{
+    position: relative;
+    left: 42%;
+    top: 20px;
+    padding: 10px 70px;
+    border: solid 1px orangered;
+    background-color: #FAF4F2;
+    color: orangered;
+    border-radius: 20px;
+
+}
+
+
+
+
