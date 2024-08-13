@@ -1,0 +1,47 @@
+Tuesday, August 13, 2024.
+
+Các bước thực hiện:
+1. Xây dựng cấu trúc thư mục dự án
+    Folder dự án
+        File index.html
+        Folder img
+        Folder css
+            File index.css
+
+2. Phân chia bố cục layout
+
+menu = navigation bar
+
+Các thuộc tính:
+1. list-style: dùng để thay đổi kiểu đánh dấu cho danh sách.
+2. Text css
+    color: màu chữ
+    text-decoration: kiểu gạch chân cho chữ
+    text-align: căn lề cho chữ
+    line-height: xét chiều cao cho các dòng
+    word-spacing: khoảng cách giữa các từ trong đoạn văn
+    letter-spacing: 
+    text-indent:
+
+3. Font css
+    - font-size: thiết lập kích thước chữ
+        + Các đơn vị cơ bản:
+           - Px 
+           - Rem, em: kích thước thay đổi theo kích thước chuẩn của html(root) 
+
+    - font-weight: độ đậm của chữ
+        + 2 giá trị cơ bản:
+            - nomal/ bold
+            - 100 - 900
+
+   - font-style: kiểu chữ thẳng đứng, hoặc nghiêng
+        + Các giá trị cơ bản: normal/ bold
+
+    - font-family
+
+
+
+
+
+    
+
