@@ -11,6 +11,9 @@ html, body{
 .clear{
     clear: both;
 }
+p, h2, h4{
+    color: gray;
+}
 
 /* start header */
 .header {
@@ -110,6 +113,50 @@ html, body{
     border-radius: 20px;
 
 }
+
+/* stary contact */
+.contact{
+    background-color: #F8E1DB;
+    border: none;
+    border-radius: 20px;
+    margin: 80px 0px;
+}
+.contact__content{
+   padding: 25px;
+   margin-top: 30px;
+}
+.contact__item{
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+}
+.contact__right{
+    line-height: 18px;
+}
+.action__name{
+    float: left;
+    width: 50%;
+}
+.action__item{
+    float: left;
+    width: 50%;
+}
+.action__item img{
+    width: 140px;
+}
+.action__item i{
+    color: #E76F51;
+    margin: 0 3px;
+    font-size: 20px;
+}
+
+
+
+
+
+    
+
+
 
 
 
